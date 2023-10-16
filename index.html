@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FireLight Keyboards</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Add your CSS styles here */
+        /* Style for the fixed header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensures the header stays on top of other elements */
+        }
+
+        /* Add some space to the content so it's not hidden behind the fixed header */
+        body {
+            margin-top: 50px; /* Adjust this value based on the height of your header */
+        }
+
+        /* Some additional styles for the content */
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
     </style>
 </head>
 <body>

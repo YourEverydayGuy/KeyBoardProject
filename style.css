@@ -21,6 +21,19 @@ header {
     text-align: center;
 }
 
+#discordlink {
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#discordlink: hover {
+    color: #ff4500; 
+}
+
 main {
     margin-top: 60px;
     padding: 20px;

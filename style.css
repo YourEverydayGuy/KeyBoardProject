@@ -24,14 +24,6 @@ header {
 main {
     margin-top: 60px;
     padding: 20px;
-} 
-#navigateButton {
-    padding: 10px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 footer {

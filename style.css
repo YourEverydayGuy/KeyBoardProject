@@ -24,14 +24,16 @@ header {
 #discordlink {
     display: inline-block;
     padding: 10px;
-    background-color: #3498db;
-    color: #fff; 
+    background: url('https://static.vecteezy.com/system/resources/previews/018/930/718/original/discord-logo-discord-icon-transparent-free-png.png') center center no-repeat; 
+    color: transparent; 
     text-decoration: none;
-    border-radius: 5px;
+    boarder-radius: 5px;
+    background-size: cover;
 }
 
-#discordlink: hover {
-    color: #ff4500; 
+#discordlink:hover {
+    background: url('https://static.vecteezy.com/system/resources/previews/018/930/718/original/discord-logo-discord-icon-transparent-free-png.png') center center no-repeat; 
+    background-size: cover;
 }
 
 main {

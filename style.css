@@ -48,6 +48,11 @@ header {
 #discordlink:hover span {
     color: #ff4500;
         }
+#discordlink: img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
 main {
     margin-top: 60px;
     padding: 20px;
